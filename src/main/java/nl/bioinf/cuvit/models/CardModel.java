@@ -1,15 +1,17 @@
 package nl.bioinf.cuvit.models;
 
-import org.springframework.web.multipart.MultipartFile;
-import java.util.Objects;
-
 /* Author: Nils Mooldijk */
 
 public class CardModel {
 
     private String title;
-    private String short_description;
-    private String full_description;
+    private String shortDescription;
+    private String fullDescription;
+    private int ect;
+    private String gradingSystem;
+    private String assesmentType;
+
+    
 
     public String getTitle(){
         return title;
@@ -18,16 +20,16 @@ public class CardModel {
         this.title = toSet;
     }
     public String getShortDescription(){
-        return short_description;
+        return shortDescription;
     }
     public void setShortDescription(String toSet){
-        this.short_description = toSet;
+        this.shortDescription = toSet;
     }
     public String getFullDescription(){
-        return full_description;
+        return fullDescription;
     }
     public void setFullDescription(String toSet){
-        this.full_description = toSet;
+        this.fullDescription = toSet;
     }
 
 }
