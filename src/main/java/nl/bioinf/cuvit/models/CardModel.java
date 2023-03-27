@@ -1,5 +1,4 @@
 package nl.bioinf.cuvit.models;
-
 /* Author: Nils Mooldijk */
 
 public class CardModel {
@@ -11,7 +10,8 @@ public class CardModel {
     private String gradingSystem;
     private String assesmentType;
 
-    
+
+
 
     public String getTitle(){
         return title;
